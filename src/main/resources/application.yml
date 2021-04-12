@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    password: secret
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: postgres
+  jpa:
+    hibernate:
+      ddl-auto: none
+    show-sql: true
+  liquibase:
+    enabled: true
+    change-log: classpath:/liquibase/master.yaml

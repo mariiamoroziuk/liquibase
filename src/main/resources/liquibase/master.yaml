@@ -1,0 +1,5 @@
+databaseChangeLog:
+  - include:
+      file: liquibase/changes/001.yml
+#  - include:
+#      file: liquibase/changes/002.yml
